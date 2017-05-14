@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  padding-left: 70px;
+  padding-top: 20px;
+  margin: 0 auto;
+  width: 1080px;
+  background-color: #FFFFFF;
+}
+
+#logo {
+  width: 100px;
+}
+
+#logotext {
+  width: 250px;
+}
+
+body {
+  background-color: #D8D2E1;
+}
+
+.title_area {
+  padding-right: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  /*color: #FFFFFF;*/
+}
+
+.maintitle {
+  float: left;
+}
+
+.nav {
+  float: right;
+  margin-top: -40px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  margin-left: 140px;
+}
+
+.tag {
+  width: 80px;
+}
+
+nav li {
+  list-style: none;
+  float: left;
+  margin: 0;
+  margin-left: 20px;
+  font-size: 16px;
+  font-family: '微軟正黑體', sans-serif;
+  text-align: center ;
+}
+
+nav li a:hover {
+  /*color: #FF7370;
+  font-size: 18px;*/
+}
+
+article {
+  margin: 0 auto;
+  padding-bottom: 30px;
+  width: 1080px;
+  background-color: #FFFFFF;
+}
+
+.mainimg {
+  text-align: center;
+}
+
+.mainimg img{
+  width: 990px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.intro, .history {
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.title {
+  line-height: 30px;
+  font-family: '微軟正黑體', sans-serif;
+  font-size: 20px;
+}
+
+.text {
+  line-height: 30px;
+  font-family: '微軟正黑體', sans-serif;
+  font-size: 14px;
+  padding-left: 20px;
+  display: none;
+}
+
+.icon_fb,.icon_ig,.icon_mail {
+  height: 48px;
+  margin-top:14px;
+  margin-left: 15px;
+  display: inline-block;
+  float:right;
+}
+
+.icon_fb {
+  margin-right: 75px;
+}
+
+.icon_mail {
+  margin-left: 29%;
+}
+
+.icon_fb img {
+  height: 48px;
+  width: 48px;
+}
+
+.icon_ig img {
+  height: 48px;
+  width: 48px;
+}
+
+.icon_mail img {
+  height: 48px;
+  width: 48px;
+}
+
+.icon_fb:hover {
+  background-image: url("../images/icon_fb_hover.png");
+  background-size: 53px,53px;
+}
+
+.icon_ig:hover {
+  background-image: url("../images/icon_ig_hover.png");
+  background-size: 48px,48px;
+}
+
+.icon_mail:hover {
+  background-image: url("../images/icon_gmail_hover.png");
+  background-size: 48px,48px;
+}
+
+.icon_fb img:hover {
+  opacity: 0;
+}
+
+.icon_ig img:hover {
+  opacity: 0;
+}
+
+.icon_mail img:hover {
+  opacity: 0;
+}
+
+.footer_text {
+  margin: 0 auto;
+  display: inline-block;
+  height: 32px;
+  font-family: "Microsoft Yi Baiti";
+  font-size: 18px;
+  float: right;
+  color: white;
+  margin-top: 24px;
+}
+
+.logo {
+  float: right;
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.logo img {
+  height: 48px;
+}
+
+footer {
+  background-color: rgb(24, 23, 23);
+  height: 76px;
+  margin: 0 auto;
+}
+
+.clear::after {
+  content: "";
+  display: block;
+  clear: both;
+}
